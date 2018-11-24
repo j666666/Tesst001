@@ -20,6 +20,7 @@ class TestLogin():
     def teardown_class(self):
         allure.attach("描述", "退出成功!")
         self.login.driver.quit()
+
     #测试方法
     def test_login(self,text="WLAN"):
         #点击搜索
