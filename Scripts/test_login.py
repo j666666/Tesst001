@@ -29,6 +29,7 @@ class TestLogin():
         self.login.page_username(text)
         #点击返回
         self.login.page_password()
+        assert 1
 
 
 
